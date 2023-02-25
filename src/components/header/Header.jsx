@@ -7,6 +7,7 @@ import Adidas from '../../assets/adidas.png'
 
 const Header = () => {
     return (
+
         <header>
             <div className="container header__container">
                 <div className="header__container-act">

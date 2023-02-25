@@ -1,5 +1,6 @@
 header {
     height: 20vh;
+    width: 100vw;
     background: linear-gradient(var(--cor-laranja-primaria) 70%, var(--cor-azul-primaria) 30%);
 }
 
@@ -52,4 +53,10 @@ header {
     position: absolute;
     left: 35%;
     top: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .header__container{
+        visibility: none;
+    }
 }
