@@ -1,0 +1,36 @@
+section {
+    padding: 0rem 25rem;
+}
+
+.container__fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1rem;
+    gap: 2rem 11rem;
+}
+
+.container__fotos-galeria {
+    margin-top: 2rem;
+  
+    
+}
+
+.container__fotos-galeria a {
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+}
+
+.container__fotos-galeria a:hover{
+    color: var(--cor-laranja-primaria);
+}
+
+.container__fotos-galeria h5 {
+    color: red;
+    font-size: 16px;
+}    
+
+.titulo { 
+    margin-top: 1rem;
+}

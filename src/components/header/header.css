@@ -1,0 +1,55 @@
+header {
+    height: 20vh;
+    background: linear-gradient(var(--cor-laranja-primaria) 70%, var(--cor-azul-primaria) 30%);
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__container-patrocinios{
+    position: absolute;
+    left: 60%;
+}
+
+.header__container-patrocinios img{
+    width: 20%;
+}
+
+.header__container-logo img{
+    width: 40%;
+}
+.header__container-logo{
+    position: absolute;
+    right: 50%;
+}
+
+.header__container-menu-links {
+    display: flex;
+    position: absolute;
+    top: 8.6rem;
+    left: 35%;
+    gap: 5rem;
+}
+
+.header__container-menu-links li a {
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    text-decoration:none;
+    color: white;
+}
+
+.header__container-act a {
+    font-size: 24px;
+    list-style: none;
+    text-decoration:none;
+    color: white;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: absolute;
+    left: 35%;
+    top: 1.5rem;
+}

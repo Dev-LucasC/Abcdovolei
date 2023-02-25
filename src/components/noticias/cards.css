@@ -1,0 +1,14 @@
+.container__cards {
+    margin-top: 5rem;
+    padding: 0rem 25rem;
+}
+
+.container__cards hr {
+    margin-bottom: 1rem;
+}
+
+.container__cards-noticias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7.1rem;
+}
